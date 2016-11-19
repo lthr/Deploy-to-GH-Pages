@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-  - '4'
+- '4'
 before_script:
-  - npm install -g harp
-  - chmod +x ./scripts/deploy-to-gh-pages.sh
+- npm install -g harp
+- chmod +x ./scripts/deploy-to-gh-pages.sh
 script: ./scripts/deploy-to-gh-pages.sh
 env:
- global:
-    - secure: "CZsdy6iR06BCKEBvNjjR+FW4nFchVENsGeET9XIU9B8SvBSlhZZCyFR0braaJ23o1Z6M+7PI1/B+dPIkzgaHWe9AzVsiXTB8uyE47PB/7UBC9T045McuJk++BCNSFTkuYG1BQfw50gi/JCTp7ZEEeHQvz0oTCtkVh53ugPsQbgaPvSlo2hElwx+zBMxfLs6KBUzhW8vBOeEiVLYl2J7N6uAGT14l5/mRiN4amyknf8RGTEFUm9bnD2AralQnwaBnVePIRHNAi7fMmen6XOhaiZUEBwVIyz4xTtQ/e1RFSfeeeTQjjbE0+Al+LQihQGKPgmHRh76DbygKUVOACxyjrzUfGhnEJwIEJRERkAFkGtB6e+1pJ5kqTW72uLQqk5uegSxVnBE6C1G24V1dnQyJNlQLs/vUcQLW9/ELqr3g4ACvvDs8vswhrqct5J4hsNV1V9aQhw95juLw33bxDo+7mvQ/9kNGxvhrDlJktZLf/h1IH/+P/sxrmAeKBxmrB2QEX40YAtAHFMLgYDLcjnI6mmW86dNXhrJ1+lyTCALTAsgTC2TGlcQFnB0y896kK/gtsMeWj1srVIdJqQG8t+RJBbiwdVixY/5DoE4CyWY8qVnmB8gc9y8RZvdsW7uJrW/WsPoDnc/c8h5sLKEK2gf7BhrDZxVgTIKUhxonxq0PKc4="
+  global:
+  - secure: C8UGpatTre/usrA+3wM+J9oqIlhYWt8sA2VK/DkT79ULDlerrQxSJf9/Irh+6AcRTtKjgbAs+VVdaxMnA/9Bk6KHnD2MoHiOT28mYusk019Qn6HiLZoPNlaBN7W5GysPcewnqaiYfSnDhzso37cDExpgrKP1DQqnTThYiREPbF0G0x5lu7X72yvwCD67dIWpQoowuUE3OCXTkkgTd2HubvFTSjzmK4zuW52iK3qIi5Ax1u/Fyecu0x9IcQ//PptIygiAn9J/ZZ+IK0XSYNa2NVsKJ+z8xr3FDi7vcw96JcMAle7sF3/7hk9iy5NyIgovStRfowGed21KHt1p2JWTVujyIWuqY9WAkAjUZ4XqkC3s4SrQq9JQBcPwqpwdRwGOvc1Idn/afP45bbd8IQIG7K95xWFeVvcr55Ttrb0smp160KLHBb4DD4rAYwPlbb3mSDmx8Q1uZ3r9p/bXbVSGuRZvnTBRukybXWYOwhYO+YDci+8WtgG9ainGo0QpEsGIiGAza3b+hKsya1HGrpgV6I6mUc4a6bUel718KN5Q89brRAXl9NFjn3Emc9RdQ6zY89YiOLCKv0PR/r8mu9MStdhteJ+xWURxqsJjG+QRGsVv4949PCG4FdIq9leZK+ul5L5ISELvwPZFJXkFsVEe7OajC5g3NgJdwBoq5B+F7L0=
