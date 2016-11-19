@@ -1,7 +1,6 @@
 before_script:
   - chmod +x ./scripts/deploy-to-gh-pages.sh
-script:
-  - bash ./scripts/deploy-to-gh-pages.sh
+script: ./scripts/deploy-to-gh-pages.sh
 env:
   global:
     - GITHUB_REPO: "lthr/X"
