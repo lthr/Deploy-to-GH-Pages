@@ -2,8 +2,8 @@ language: node_js
 node_js:
 - '4'
 before_script:
-- npm install -g harp
-- chmod +x ./scripts/deploy-to-gh-pages.sh
+  #- npm install -g harp
+  - chmod +x ./scripts/deploy-to-gh-pages.sh
 script: ./scripts/deploy-to-gh-pages.sh
 env:
   global:
