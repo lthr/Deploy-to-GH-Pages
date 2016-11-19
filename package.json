@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lthr/X.git"
@@ -15,6 +18,7 @@
   },
   "homepage": "https://github.com/lthr/X#readme",
   "devDependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "jshint": "^2.9.4"
   }
 }
