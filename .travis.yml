@@ -1,10 +1,11 @@
 language: node_js
 node_js:
-- '4'
+- latest
 before_script:
   #- npm install -g harp
   - chmod +x ./scripts/deploy-to-gh-pages.sh
-script: ./scripts/deploy-to-gh-pages.sh
+script: npm test # build to dist job here
+after_success: ./scripts/deploy-to-gh-pages.sh
 env:
   global:
   - secure: C8UGpatTre/usrA+3wM+J9oqIlhYWt8sA2VK/DkT79ULDlerrQxSJf9/Irh+6AcRTtKjgbAs+VVdaxMnA/9Bk6KHnD2MoHiOT28mYusk019Qn6HiLZoPNlaBN7W5GysPcewnqaiYfSnDhzso37cDExpgrKP1DQqnTThYiREPbF0G0x5lu7X72yvwCD67dIWpQoowuUE3OCXTkkgTd2HubvFTSjzmK4zuW52iK3qIi5Ax1u/Fyecu0x9IcQ//PptIygiAn9J/ZZ+IK0XSYNa2NVsKJ+z8xr3FDi7vcw96JcMAle7sF3/7hk9iy5NyIgovStRfowGed21KHt1p2JWTVujyIWuqY9WAkAjUZ4XqkC3s4SrQq9JQBcPwqpwdRwGOvc1Idn/afP45bbd8IQIG7K95xWFeVvcr55Ttrb0smp160KLHBb4DD4rAYwPlbb3mSDmx8Q1uZ3r9p/bXbVSGuRZvnTBRukybXWYOwhYO+YDci+8WtgG9ainGo0QpEsGIiGAza3b+hKsya1HGrpgV6I6mUc4a6bUel718KN5Q89brRAXl9NFjn3Emc9RdQ6zY89YiOLCKv0PR/r8mu9MStdhteJ+xWURxqsJjG+QRGsVv4949PCG4FdIq9leZK+ul5L5ISELvwPZFJXkFsVEe7OajC5g3NgJdwBoq5B+F7L0=
