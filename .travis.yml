@@ -6,5 +6,4 @@ before_script:
 script: ./scripts/deploy-to-gh-pages.sh
 env:
  global:
-    - GH_REF: github.com/lthr/X.git
     - secure: "CZsdy6iR06BCKEBvNjjR+FW4nFchVENsGeET9XIU9B8SvBSlhZZCyFR0braaJ23o1Z6M+7PI1/B+dPIkzgaHWe9AzVsiXTB8uyE47PB/7UBC9T045McuJk++BCNSFTkuYG1BQfw50gi/JCTp7ZEEeHQvz0oTCtkVh53ugPsQbgaPvSlo2hElwx+zBMxfLs6KBUzhW8vBOeEiVLYl2J7N6uAGT14l5/mRiN4amyknf8RGTEFUm9bnD2AralQnwaBnVePIRHNAi7fMmen6XOhaiZUEBwVIyz4xTtQ/e1RFSfeeeTQjjbE0+Al+LQihQGKPgmHRh76DbygKUVOACxyjrzUfGhnEJwIEJRERkAFkGtB6e+1pJ5kqTW72uLQqk5uegSxVnBE6C1G24V1dnQyJNlQLs/vUcQLW9/ELqr3g4ACvvDs8vswhrqct5J4hsNV1V9aQhw95juLw33bxDo+7mvQ/9kNGxvhrDlJktZLf/h1IH/+P/sxrmAeKBxmrB2QEX40YAtAHFMLgYDLcjnI6mmW86dNXhrJ1+lyTCALTAsgTC2TGlcQFnB0y896kK/gtsMeWj1srVIdJqQG8t+RJBbiwdVixY/5DoE4CyWY8qVnmB8gc9y8RZvdsW7uJrW/WsPoDnc/c8h5sLKEK2gf7BhrDZxVgTIKUhxonxq0PKc4="
