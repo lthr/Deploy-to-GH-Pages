@@ -2,7 +2,8 @@ language: node_js
 node_js:
 - node
 before_script:
-  #- npm install -g harp
+  - npm install -g gulp
+  - npm install -g gulp-cli
   - chmod +x ./scripts/deploy-to-gh-pages.sh
 script: gulp
 after_success: ./scripts/deploy-to-gh-pages.sh
