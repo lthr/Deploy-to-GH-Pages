@@ -9,5 +9,5 @@ mkdir out;
  cp ../hello.js ./hello.js
  git add .
  git commit -m "Deployed to Github Pages"
- git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+ git push --force --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:ghpages > /dev/null 2>&1
 )
