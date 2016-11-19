@@ -4,7 +4,7 @@ node_js:
 before_script:
   #- npm install -g harp
   - chmod +x ./scripts/deploy-to-gh-pages.sh
-script: npm test # build to dist job here
+script: gulp
 after_success: ./scripts/deploy-to-gh-pages.sh
 env:
   global:

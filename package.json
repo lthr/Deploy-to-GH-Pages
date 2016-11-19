@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lthr/X#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "jshint": "^2.9.4"
   }
 }
