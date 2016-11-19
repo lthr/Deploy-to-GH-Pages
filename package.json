@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/jshint/bin/jshint hello.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
   },
   "homepage": "https://github.com/lthr/X#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "jshint": "^2.9.4"
+    "gulp": "^3.9.1"
   }
 }
