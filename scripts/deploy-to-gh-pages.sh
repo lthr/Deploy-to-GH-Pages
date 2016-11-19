@@ -11,7 +11,7 @@ git config --global user.email "nobody@nobody.org"
 git config --global user.name "Travis CI"
 
 # build (CHANGE THIS)
-# make
+echo XXX > ./public/index.html
 
 # deploy
 cd public
