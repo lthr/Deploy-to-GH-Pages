@@ -1,21 +1,8 @@
 {
   "name": "X",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lthr/X.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lthr/X/issues"
-  },
-  "homepage": "https://github.com/lthr/X#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
   }
