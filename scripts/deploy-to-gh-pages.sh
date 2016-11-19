@@ -1,21 +1,13 @@
 #!/bin/bash
-# See https://medium.com/@nthgergo/publishing-gh-pages-with-travis-ci-53a8270e87db
-# http://ricostacruz.com/cheatsheets/travis-gh-pages.html
-set -o errexit
-
-rm -rf public
-mkdir public
-
-# config
-git config --global user.email "nobody@nobody.org"
-git config --global user.name "Travis CI"
-
-# build (CHANGE THIS)
-echo XXX > ./public/index.html
-
-# deploy
-cd public
-git init
-git add .
-git commit -m "Deploy to Github Pages"
-git push --force --quiet "https://${GITHUB_TOKEN}@$github.com/${GITHUB_REPO}.git" master:gh-pages > /dev/null 2>&1
+rm -rf out || exit 0;
+mkdir out;
+node build.js
+( cd out
+ git init
+ git config user.name "Travis-CI"
+ git config user.email "travis@nowhere.com"
+ cp ../hello.js ./hello.js
+ git add .
+ git commit -m "Deployed to Github Pages"
+ git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
+)

@@ -1,7 +1,8 @@
-before_script:
-  - chmod +x ./scripts/deploy-to-gh-pages.sh
-script: ./scripts/deploy-to-gh-pages.sh
+language: node_js
+node_js:
+  - '4'
+script: npm run-script deploy
 env:
-  global:
-    - GITHUB_REPO: "lthr/X"
+ global:
+    - GH_REF: github.com/lthr/X.git
     - secure: mBbdkeEzBAjRKT4/quWSJYoqR+2uV0xMieW6lTagvCBqjzgLnHPuNPUnAQfGCWhsrpdBzQ5eC+5P9DMFcfUdOO1JRhCK7ZKoqryU3g1pkTEwh4A0aijAiabiaRd2w+n+VYb7fTlEkGmlcuGI49oTvZHLsfzzVNXYrsHIUpi1Hw3SRkOjpVjl+SF/P9TuGfPnsYYNymKRz4xq0X4KYGjHv4HkQ2r0kQzCZ8grS020u8/qTfglK3wCuQnstXLAMnzqAmsk8OBSNolbInZr+aOpld/ZfoI/AXyk5kEbwqjOf89SNnlc2T2uxBCN/WG0yhp/jiM746raIvEjc8dfM6Ch96UfrJOU8rEz+1zYvl1BlltiB773b7+VGzHIH5bq+ytSNPKmdXKK7U5pL7UcYOBOOX2J16gMLJ/RGYI4L0e94q14/NuBm9PgVaKsefC3meYyWCsC2CTpcHC7A7VDjBWAZTbP5KdkjPnD9tFA1HdcAnBpsH1AdiX5qFJNYH6b155U0XPz9tCnszqdOziQWcWSl+T9vFN/xebrXM6l0GUCTy9M3UlFO1WJfl/fbhJexws8n9WJ7snIfovp+avJ5MQkq8YNZqmxaZQCZNEZaPWaKZ11FXZ1R1sEsEINu4QlpeiKyILKHPxrlCHZQYMNvmrz4Ios7/Z7W8bRUrIxfbZZPrM=
