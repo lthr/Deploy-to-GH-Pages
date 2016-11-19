@@ -5,7 +5,7 @@ mkdir out;
 ( cd out
  git init
  git config user.name "Travis-CI"
- git config user.email "travis@nowhere.com"
+ git config user.email "travis@gkdhfgkfdhgkdfgkhdfghdkfhgkjdfhgkdfhgjdh.com"
  cp ../hello.js ./hello.js
  git add .
  git commit -m "Deployed to Github Pages"
