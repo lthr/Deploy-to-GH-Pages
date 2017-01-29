@@ -9,3 +9,4 @@
 6. Copy the `/scripts/deploy-to-gh-pages.sh` to your repository
 7. Make sure you have a package.json file in your repository (create one with `npm init`)
 8. Create a branch in your GitHub repository called `gh-pages`
+9 Add Gulp or similar to build your content and place it in `dist/` folder
