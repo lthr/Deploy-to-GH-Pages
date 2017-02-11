@@ -6,7 +6,7 @@ This setup will deploy content from a `dist/` folder to GH-Pages via Travis-CI.
 Create or use one of your existing repositories on GitHub. Clone it, and create a `master` branch if you don't already have one. Use this branch for the rest of the setup.
 
 ### Initialize your project
-In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the line 
+In the root of your project, initialize with `npm init -f` to create a default `package.json` file if you don't already have one. Edit it, add the line marked with **bold** to generate dummy output in your `dist` folder:
 
 <pre>
 {
