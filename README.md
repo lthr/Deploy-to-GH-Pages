@@ -15,7 +15,7 @@ In the root of your project, initialize with `npm init -f` to create a default `
   "description": "",
   "main": "index.js",
   "scripts": {
-  <b>"build": "echo \"Hello, World\" > ./dist/index.html",</b>
+    <b>"build": "echo \"Hello, World\" > ./dist/index.html",</b>
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
