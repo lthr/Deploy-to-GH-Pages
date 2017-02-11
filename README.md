@@ -1,4 +1,4 @@
-# Deploy to GH Pages
+# Deploy to GH Pages with Travis-CI
 
 This setup will deploy content from a `dist/` folder to GH-Pages via Travis-CI.
 
