@@ -7,6 +7,9 @@ CURRENT_COMMIT=`git rev-parse HEAD`
 ORIGIN_URL=`git config --get remote.origin.url`
 ORIGIN_URL_WITH_CREDENTIALS=${ORIGIN_URL/\/\/github.com/\/\/$GITHUB_TOKEN@github.com}
 
+GH_USER_NAME="lthr"
+GH_USER_EMAIL="mikelothar@gmail.com"
+
 cp .gitignore $DIST_DIRECTORY || exit 1
 
 echo "Checking out gh-pages branch"
@@ -20,8 +23,8 @@ cp -r $DIST_DIRECTORY/* . || exit 1
 cp $DIST_DIRECTORY/.gitignore . || exit 1
 
 echo "Pushing new content to $ORIGIN_URL"
-git config user.name "lthr" || exit 1
-git config user.email "mikelothar@gmail.com" || exit 1
+git config user.name "$GH_USER_NAME" || exit 1
+git config user.email "$GH_USER_EMAIL" || exit 1
 
 git add -A . || exit 1
 git commit --allow-empty -m "Regenerated static content for $CURRENT_COMMIT" || exit 1
