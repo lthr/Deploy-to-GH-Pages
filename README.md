@@ -99,7 +99,7 @@ Install [Travis Command Line Client](https://github.com/travis-ci/travis.rb#read
 ### Encrypt token
 With the terminal, go into your project and execute the following (replace the text marked with **bold**):
 <pre>
-travis encrypt -r <b>YOUR-GITHUB-USERNAME-HERE</b>/<b>YOUR-GITHUB-REPOSITORY-NAME-HERE</b> GITHUB_TOKEN=<b>YOUR-GITHUB-TOKEN-HERE</b> --add
+travis encrypt -r <b>YOUR-GITHUB-USERNAME</b>/<b>YOUR-GITHUB-REPOSITORY</b> GITHUB_TOKEN=<b>YOUR-GITHUB-TOKEN</b> --add
 </pre>
 This will add the encrypted token to your `.travis.yml` file.
 
