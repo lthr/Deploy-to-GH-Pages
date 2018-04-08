@@ -37,7 +37,7 @@ CURRENT_COMMIT=`git rev-parse HEAD`
 ORIGIN_URL=`git config --get remote.origin.url`
 ORIGIN_URL_WITH_CREDENTIALS=${ORIGIN_URL/\/\/github.com/\/\/$GITHUB_TOKEN@github.com}
 
-GH_USER_NAME="<b>lthr</b>"
+GH_USER_NAME="<b>mikelothar</b>"
 GH_USER_EMAIL="<b>mikelothar@gmail.com</b>"
 
 cp .gitignore $DIST_DIRECTORY || exit 1
