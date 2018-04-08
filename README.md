@@ -88,7 +88,7 @@ Generate a new access token from [GitHub](https://github.com/settings/tokens/new
 
 ![Github settings for deploying to TravisCI](https://i.imgur.com/susyCJ3.png)
 
-Don't close the window after you've created your token, you'll need the token later in this setup.
+Don't close the window after you've created your token, you'll need the token in step 8 and 9.
 
 ### 6. Travis-CI
 Add your GitHub repository in your [Travis CI](https://travis-ci.org/profile) repository overview.
@@ -113,5 +113,5 @@ Click the `Edit` button and update with your GitHub username and the token you m
 ![Github Integration and Services](https://i.imgur.com/3WNeZTW.png)
 
 ### 10. Push your changes to GitHub
-Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at <pre>http://<b>YOUR-GITHUB-USERNAME</b>.github.io/<b>YOUR-GITHUB-REPOSITORY</b></pre>.
+Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at <pre>http://<b>YOUR-GITHUB-USERNAME</b>.github.io/<b>YOUR-GITHUB-REPOSITORY</b></pre>, e.g. [http://mikelothar.github.io/Deploy-to-GH-Pages](http://mikelothar.github.io/Deploy-to-GH-Pages).
 
