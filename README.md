@@ -84,7 +84,14 @@ after_success:
 </pre>
 
 ### GitHub access token
-Generate a new access token from [GitHub](https://github.com/settings/tokens/new). Give it a description, and the following permissions found [here](https://docs.travis-ci.com/user/github-oauth-scopes/). Don't close the window after you've created your token, you'll need the token later in this setup.
+Generate a new access token from [GitHub](https://github.com/settings/tokens/new). Give it a description, and the following permissions found [here](https://docs.travis-ci.com/user/github-oauth-scopes/):
+
+![Github settings for deploying to TravisCI](https://i.imgur.com/susyCJ3.png)
+
+Don't close the window after you've created your token, you'll need the token later in this setup.
+
+### Travis-CI
+Add your GitHub repository in your [Travis CI](https://travis-ci.org/profile) repository overview.
 
 ### Install Travis command line client
 Install [Travis Command Line Client](https://github.com/travis-ci/travis.rb#readme) with `gem install travis`.
@@ -95,9 +102,6 @@ With the terminal, go into your project and execute the following (replace the t
 travis encrypt -r <b>YOUR-GITHUB-USERNAME-HERE</b>/<b>YOUR-GITHUB-REPOSITORY-NAME-HERE</b> GITHUB_TOKEN=<b>YOUR-GITHUB-TOKEN-HERE</b> --add
 </pre>
 This will add the encrypted token to your `.travis.yml` file.
-
-### Travis-CI
-Add your GitHub repository in your [Travis CI](https://travis-ci.org/profile) repository overview.
 
 ### GitHub repository settings
 Go to your GitHub repository, under settings go to `Integration & Services`. Click the `Add service` dropdown and find `Travis CI`.
