@@ -113,5 +113,6 @@ Click the `Edit` button and update with your GitHub username and the token you m
 ![Github Integration and Services](https://i.imgur.com/3WNeZTW.png)
 
 ### 10. Push your changes to GitHub
-Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at `http://<b>YOUR-GITHUB-USERNAME</b>.github.io/<b>YOUR-GITHUB-REPOSITORY</b>`, e.g. [`http://mikelothar.github.io/Deploy-to-GH-Pages`](http://mikelothar.github.io/Deploy-to-GH-Pages).
+Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at <pre>http://<b>YOUR-GITHUB-USERNAME</b>.github.io/<b>YOUR-GITHUB-REPOSITORY</b></pre>
+Eg.: [`http://mikelothar.github.io/Deploy-to-GH-Pages`](http://mikelothar.github.io/Deploy-to-GH-Pages).
 
