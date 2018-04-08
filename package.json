@@ -1,9 +1,13 @@
 {
   "name": "Deploy-to-GH-Pages",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "build": "mkdir ./dist && echo \"Deployed successfully!\" > ./dist/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

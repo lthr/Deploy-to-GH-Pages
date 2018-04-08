@@ -10,12 +10,12 @@ In the root of your project, initialize with `npm init -f` to create a default `
 
 <pre>
 {
-  "name": "test",
+  "name": "Deploy-to-GH-Pages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    <b>"build": "echo \"Hello, World\" > ./dist/index.html",</b>
+    <b>"build": "mkdir ./dist && echo \"Deployed successfully!\" > ./dist/index.html",</b>
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -112,9 +112,6 @@ Click the `Edit` button and update with your GitHub username and the token you m
 
 ![Github Integration and Services](https://i.imgur.com/3WNeZTW.png)
 
-### 10. Add `dist/` folder
-Create a folder in the root of your project called `dist`. Inside it, add a file called `index.html` containing some basic HTML. This is only for testing purpose, later you can add Gulp, Webpack or similar to generate your distribution content for this folder. Right now it's the `build` script from `package.js` that generates content in the `dist` folder.
-
-### 11. Push your changes to GitHub
+### 10. Push your changes to GitHub
 Now commit and push your changes to the `master` branch to GitHub. Travis-CI will detect this, and start deploying the content of the `dist` folder to GH-Pages. After deployment your page is available at <pre>http://<b>YOUR-GITHUB-USERNAME</b>.github.io/<b>YOUR-GITHUB-REPOSITORY</b></pre>.
 
