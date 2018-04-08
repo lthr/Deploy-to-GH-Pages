@@ -108,7 +108,7 @@ Go to your GitHub repository, under settings go to `Integration & Services`:
 
 ![Github Integration and Services](https://i.imgur.com/B0Sho4F.png)
 
-Click the `Edit` button and add your GitHub Username and Token from Step 5`:
+Click the `Edit` button and update with your GitHub username and the token you made in Step 5:
 
 ![Github Integration and Services](https://i.imgur.com/3WNeZTW.png)
 
